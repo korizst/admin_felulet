@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: white;
+    font-weight: bold;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.container {
+    width: 90vw;
+    max-width: 1350px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: black;
+    padding: 20px;
+}
+
+.adminInterface {
+    padding: 20px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+#enableStripes,
+#deactivate {
+    display: none;
+}
+
+#tableColor {
+    width: 40%;
+    margin: auto;
+}
